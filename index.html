@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <title>Insertion Sort</title>
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <p>Insert 10 random numbers and I will display them in a sorted list.</p>
+        </div>
+        <form id="user-input">
+            <div>
+                <label for="input">Input:</label>
+                <input type="text" id="input" class="u-full-width">
+            </div>
+            <div>
+                <input type="submit" value="Submit" id="submit-button" class="u-full-width">
+            </div>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th id="unsorted-array-header">Unsorted Array</th>
+                </tr>
+            </thead>
+            <tbody id="unsorted-table"></tbody>
+        </table>
+        <div id="insert-button"></div>
+        <table>
+            <thead>
+            <tr>
+                <th id="sorted-array-header">Sorted Array</th>
+            </tr>
+            </thead>
+            <tbody id="sorted-table"></tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
