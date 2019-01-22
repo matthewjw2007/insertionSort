@@ -1,5 +1,7 @@
 Author: Matthew Esqueda
+
 Date: January 21, 2019
+
 Version: 1.0
 
 In order to use the site, download all three files into one folder and then open index.html with your browser. The user
